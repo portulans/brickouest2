@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+   crossorigin=""></script>
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    </style>
+  <title>Brickouest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="w3-bar customcolor w3-large navbar">
+    <a href="#home" class="w3-button w3-bar-item"><i class="fa fa-home"></i></a>
+    <a href="#events" class="w3-button w3-bar-item">Prochains évènements</a>
+    <a href="#actu" class="w3-button w3-bar-item">Actualité</a>
+    <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+  </nav>
+
+  <!--Header-->
+  <header>
+
+  </header>
+
+  <!--Main-->
+  <article>
+      <div id="logo"><img src="./img/LogoHeader.png"/></div>
+      <p class="subtitle">Association de passionnés de Briques LEGO® du Grand Ouest.</p>
+      <div id="pres" >
+        <p>Notre association a pour vocation de rassembler les fans de LEGO® de l’ouest de la France, et de faire profiter le public de notre passion en organisant des expositions de briques LEGO®.</p>
+        <p>Pour ne rien rater de nos activités, vous pouvez consulter le calendrier et la carte des expositions et animations à venir !</p>
+        <p class="w3-red">PHOTO DE GROUPE ????</p>
+      </div>
+
+      <div id="events">
+        <h3>Prochaines expositions et animations</h3>
+        <div id="calendrier">
+          <table>
+            <tr>
+              <th>Nom</th>
+              <th>Type</th>
+              <th>Date</th>
+              <th>Adresse</th>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Exposition</td>
+              <td>23 et 24 septembre 2023</td>
+              <td>Salle Omnisport<br>29460 L'Hôpital-Camfrout</td>
+            </tr>
+          </table>
+        </div>
+
+        <div id="map"></div>
+      </div>
+
+      <div id="actu">
+        <h3>Actualité de l'association</h3>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100094055974257&tabs=timeline%2Cmessages&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=6364398433645955" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      </div>
+
+      <div id="contact">
+        <h3>Nous contacter</h3>
+        <div class="container">
+          <form action="">
+        
+            <label for="fname">Nom</label>
+            <input type="text" id="fname" name="firstname" placeholder="Votre nom" required>
+        
+            <label for="lname">Prénom</label>
+            <input type="text" id="lname" name="lastname" placeholder="Votre prénom" required>
+        
+            <label for="lname">Objet</label>
+            <input type="text" id="obj" name="object" placeholder="Objet du message" required>
+
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px" required></textarea>
+        
+            <input type="submit" value="Envoyer">
+        
+          </form>
+        </div>
+      </div>
+    </article>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-center w3-xlarge footer">
+    <p class="w3-medium">
+      © Brickouest. 2023
+    </p>
+    <p class="w3-small">
+      LEGO® est une marque déposée par The LEGO Group qui ne sponsorise pas, n'autorise pas et n'approuve pas ce blog.
+    </p>
+  </footer>
+
+</body>
+<script src="js/expos.js"></script>
+</html>
