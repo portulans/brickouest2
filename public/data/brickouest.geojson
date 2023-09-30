@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "extent": [
+          -4.2674617,
+          48.2903005,
+          -4.2666326,
+          48.2899191
+        ],
+        "country": "France",
+        "city": "Landévennec",
+        "countrycode": "FR",
+        "postcode": "29560",
+        "county": "Finistère",
+        "street": "Rue de L'Abbaye",
+        "district": "Port Maria",
+        "state": "Bretagne",
+        "place": "Musée de l’abbaye de Landévennec",
+        "dates": "28 et 29 octobre 2023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.267067,
+          48.290123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "extent": [
+          -1.500703,
+          46.943111,
+          -1.499919,
+          46.942737
+        ],
+        "country": "France",
+        "city": "Rocheservière",
+        "countrycode": "FR",
+        "postcode": "85620",
+        "county": "Vendée",
+        "street": "Rue des Alouettes",
+        "district": "La Caillonnière",
+        "state": "Pays de la Loire",
+        "place": "Salle du Bouton d'Art",
+        "dates": "8 et 9 octobre 2023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.500263,
+          46.942923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "extent": [
+          -1.7960578,
+          48.0557365,
+          -1.791419,
+          48.0533582
+        ],
+        "country": "France",
+        "city": "Chavagne",
+        "countrycode": "FR",
+        "postcode": "35310",
+        "county": "Ille-et-Vilaine",
+        "street": "Rue Chateaubriand",
+        "district": "Clos Gautier",
+        "state": "Bretagne",
+        "place": "Saint-Exupéry",
+        "dates": "11 et 12 novembre 2023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.79376,
+          48.054568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "extent": [
+          -2.407182,
+          47.938456,
+          -2.405065,
+          47.937365
+        ],
+        "country": "France",
+        "city": "Ploërmel",
+        "countrycode": "FR",
+        "postcode": "56800",
+        "county": "Morbihan",
+        "street": "Rue du Lac",
+        "district": "Le Clos Hazel",
+        "state": "Bretagne",
+        "place": "E.Leclerc Ploërmel",
+        "dates": "24 et 25 novembre 2023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.405934,
+          47.937735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "extent": [
+          -4.6203376,
+          48.4344413,
+          -4.6189329,
+          48.433365
+        ],
+        "country": "France",
+        "city": "Saint-Renan",
+        "countrycode": "FR",
+        "postcode": "29290",
+        "county": "Finistère",
+        "street": "Rue du Pont-de-Bois",
+        "district": "Toul an Aon",
+        "state": "Bretagne",
+        "place": "Espace Culturel Saint-Renan",
+        "dates": "30 et 31 mars 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.619404,
+          48.433906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "extent": [
+          -2.0703557,
+          48.4438818,
+          -2.0698302,
+          48.4432907
+        ],
+        "country": "France",
+        "city": "Dinan",
+        "countrycode": "FR",
+        "postcode": "22100",
+        "county": "Côtes-d'Armor",
+        "street": "Rue du Guinefort",
+        "district": "Léhon",
+        "state": "Bretagne",
+        "place": "Salle du Clos Gastel",
+        "dates": "24 et 25 février 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.070011,
+          48.443662
+        ]
+      }
+    }
+  ]
+}
