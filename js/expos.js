@@ -5,6 +5,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 var url = "./data/brickouest.geojson"
+//https://umap.openstreetmap.fr/fr/map/brickouest_967088
 
 var expos = L.geoJSON(null, {
     });
