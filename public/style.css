@@ -54,7 +54,7 @@ article{
 }
 
 #map{
-    width: 60%;
+    width: 100%;
     height: 500px;
     margin-left:auto;
     margin-right:auto;
@@ -72,6 +72,13 @@ iframe {
 
 .customcolor{
     background-color: #92B44B;
+}
+
+.affichetab{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Form Contact*/
