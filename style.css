@@ -8,16 +8,6 @@ article{
     margin-right:auto;
 }
 
-.expo-white {
-  display: grid; 
-  grid-template-columns: 300px 1fr; 
-  grid-template-rows: 0.2fr 1fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
-    "affiche titreexpo"
-    "affiche infosexpo"; 
-}
-
 #calendrier{
   width: 65%;
   margin-left:auto;
@@ -25,7 +15,8 @@ article{
   margin-top: 2em;
   margin-bottom: 2em;
 }
-.expo-grey {
+
+.expo {
   display: grid; 
   grid-template-columns: 300px 1fr; 
   grid-template-rows: 0.2fr 1fr; 
@@ -33,6 +24,10 @@ article{
   grid-template-areas: 
     "affiche titreexpo"
     "affiche infosexpo"; 
+  margin-bottom: 1em;
+}
+
+.expo-grey {
   background-color: gainsboro;
 }
 .affiche { grid-area: affiche; }
@@ -42,6 +37,11 @@ article{
 .affiche-img{
   width: 250px;
 }
+
+/*********** FACEBOOK ********/
+#fb-root { display: none; }  /* on redéfini la taille du contenu */ 
+.fb_iframe_widget, .fb_iframe_widget span, 
+.fb_iframe_widget span iframe[style] { width: 100% !important; }
 
 /******* NAVBAR ******/
 
