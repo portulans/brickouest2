@@ -38,6 +38,14 @@ article{
   width: 250px;
 }
 
+#map{
+  width: 80%;
+  height: 400px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
 /*********** FACEBOOK ********/
 #fb-root { display: none; }  /* on redéfini la taille du contenu */ 
 .fb_iframe_widget, .fb_iframe_widget span, 
@@ -91,12 +99,6 @@ article{
     font-size: 30px;
 }
 
-#map{
-    width: 100%;
-    height: 500px;
-    margin-left:auto;
-    margin-right:auto;
-}
 
 .events{
     width:100%;
