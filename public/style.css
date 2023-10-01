@@ -16,6 +16,10 @@ article{
   margin-bottom: 2em;
 }
 
+.w3-bar{
+  z-index: 100000;
+}
+
 .expo {
   display: grid; 
   grid-template-columns: 300px 1fr; 
