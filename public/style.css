@@ -8,6 +8,41 @@ article{
     margin-right:auto;
 }
 
+.expo-white {
+  display: grid; 
+  grid-template-columns: 300px 1fr; 
+  grid-template-rows: 0.2fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "affiche titreexpo"
+    "affiche infosexpo"; 
+}
+
+#calendrier{
+  width: 65%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.expo-grey {
+  display: grid; 
+  grid-template-columns: 300px 1fr; 
+  grid-template-rows: 0.2fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "affiche titreexpo"
+    "affiche infosexpo"; 
+  background-color: gainsboro;
+}
+.affiche { grid-area: affiche; }
+.titreexpo { grid-area: titreexpo; }
+.infosexpo { grid-area: infosexpo; }
+
+.affiche-img{
+  width: 250px;
+}
+
 /******* NAVBAR ******/
 
 /* The navigation bar */
@@ -37,7 +72,7 @@ article{
 
 /****** MAP ******/
 .divlogo{
-  margin-top: 8em;
+  margin-top: 4em;
   margin-bottom: 1em;
   margin-left:auto;
   margin-right:auto;
@@ -63,7 +98,6 @@ article{
     margin-right:auto;
 }
 
-
 .events{
     width:100%;
 }
@@ -75,13 +109,6 @@ iframe {
 
 .customcolor{
     background-color: #92B44B;
-}
-
-.affichetab{
-  width: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /*Form Contact*/
@@ -151,7 +178,19 @@ footer{
     width: 100%;
   }
 
+  .divlogo{
+    margin-top: 6em;
+  }
+
   .logo{    
     width:100%;}
+
+  .facebook{
+    width: 100%;
+  }
+
+  .affiche-img{
+    width: 200px;
+  }
 
 }
