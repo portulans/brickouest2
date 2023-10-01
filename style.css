@@ -49,12 +49,6 @@ article{
   margin-right:auto;
 }
 
-
-/*********** FACEBOOK ********/
-#fb-root { display: none; }  /* on redéfini la taille du contenu */ 
-.fb_iframe_widget, .fb_iframe_widget span, 
-.fb_iframe_widget span iframe[style] { width: 100% !important; }
-
 /******* NAVBAR ******/
 
 /* The navigation bar */
@@ -152,7 +146,7 @@ input[type=text], input[type=email], select, textarea {
     padding: 20px;
   }
 
-/***** CALENDRIER *****/
+/***** TABLEAU *****/
 
 table {
     border-collapse: collapse;
@@ -176,8 +170,6 @@ table {
 footer{
     background-color:#BED2EA;
 }
-
-
 
 @media screen and (max-width: 600px) {
   .article {
