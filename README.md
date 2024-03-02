@@ -23,7 +23,9 @@ Les colonnes du tableau sont :
 - *ville* : commune où a lieu l'évènement
 - *affiche* : nom de l'image qui correspond à l'affiche. Si pas d'affiche, utiliser les images *animation.jpg* ou *exposition.jpg*
 - *tarif* : tarifs de l'évènement
+- *organiseavec* : orgnisateur de l'expo (ex: MFR de Saint-Renan)
 - *autresinfos* : autres informations sur l'évènement
+- *lien* : lien vers le site ou le réseau social de l'expo
 
 ### Carte
 Pour mettre à jour les points affichés sur la carte:
