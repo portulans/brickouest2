@@ -8,7 +8,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 function onEachFeature(feature, layer) {
     // does this feature have a property named popupContent?
     if (feature.properties) {
-        var popup = "<h3>" + feature.properties.dates + "</h3><p><b>" + feature.properties.place + "</b><br>" + 
+        var popup = "<p><b>" + feature.properties.name + "</b><br>" + 
                     feature.properties.street + "<br>" + 
                     feature.properties.postcode + ' ' + feature.properties.city + '</p>'
         layer.bindPopup(popup);

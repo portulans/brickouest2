@@ -22,13 +22,18 @@ article{
 
 .expo {
   display: grid; 
-  grid-template-columns: 300px 1fr; 
-  grid-template-rows: 0.2fr 1fr; 
+  grid-template-columns: 250px 1fr; 
+  grid-template-rows: 0.2fr 0.1fr 0.3fr 0.4fr;
   gap: 0px 0px; 
   grid-template-areas: 
     "affiche titreexpo"
-    "affiche infosexpo"; 
-  margin-bottom: 1em;
+    "affiche typevent"
+    "affiche horaires"
+    "affiche tarif"
+    "affiche localisation"
+    "affiche autresinfos"; 
+  margin-top: 2em;
+  padding-bottom: 20px;
 }
 
 .expo-grey {
@@ -36,10 +41,31 @@ article{
 }
 .affiche { grid-area: affiche; }
 .titreexpo { grid-area: titreexpo; }
-.infosexpo { grid-area: infosexpo; }
+.typevent { grid-area: typevent; }
+.horaires { grid-area: horaires; 
+  padding-top: 10px; }
+.tarif { grid-area: tarif; 
+  padding-top: 10px; }
+.autresinfos { grid-area: autresinfos; 
+  padding-top: 10px; }
+.localisation { 
+  grid-area: localisation;
+  padding-top: 10px; 
+}
 
-.affiche-img{
-  width: 250px;
+.affiche-with-img{
+  width: 220px;
+  height: auto;
+  overflow: hidden;
+}
+
+.affiche-img {
+  width: 220px; 
+}
+
+.affiche-no-img{
+  width: 220px;
+  height: auto;
 }
 
 #map{
@@ -74,6 +100,12 @@ article{
   .navbar a:hover {
     background: #ddd;
     color: black;
+  }
+
+  .navbar a.split {
+    float: right;
+    background-color: #92B44B;
+    color: white;
   }
 
 /****** MAP ******/
