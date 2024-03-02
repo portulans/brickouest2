@@ -1,4 +1,4 @@
-numero;titreevent;type;jour1;jour2;lieu;adresse;codepostal;ville;affiche;tarif;autresinfos;
-2024-001;Animation Mairie de Chanverrie;Animation;13 mars 2024;;Mairie de Chanverrie;15 Rue de la Croix du Marché;85130;Chanverrie;animation.jpg;;;
-2024-002;Fou d'Brick 2024;Exposition;Samedi 23 mars 2024 de 14h à 19h (Accès PMR de 11h à 13h);Dimanche 24 mars 2024 de 10h à 17h;Salle des Noues;Allée des Noues;85130;Chanverrie;la_verrie_expo_2024.jpg;6 ans et +: 2€, moins de 6ans : gratuit;Tombola, Atelier, Foodtruck sucré le samedi, salé le dimanche;
-2024-003;Brickland 2024;Exposition;Samedi 30 mars 2024;Dimanche 31 mars 2024;Espace Culturel l'Amphi;Place du Dr Paul Guyader;29290;Saint-Renan;exposition.jpg;;;
+statut;titreevent;type;jour1;jour2;lieu;adresse;codepostal;ville;affiche;tarif;autresinfos;
+avenir;Animation Mairie de Chanverrie;Animation;13 mars 2024;;Mairie de Chanverrie;15 Rue de la Croix du Marché;85130;Chanverrie;animation.jpg;;;
+avenir;Fou d'Brick 2024;Exposition;Samedi 23 mars 2024 de 14h à 19h (Accès PMR de 11h à 13h);Dimanche 24 mars 2024 de 10h à 17h;Salle des Noues;Allée des Noues;85130;Chanverrie;la_verrie_expo_2024.jpg;6 ans et +: 2€, moins de 6ans : gratuit;Tombola, Atelier, Foodtruck sucré le samedi, salé le dimanche;
+avenir;Brickland 2024;Exposition;Samedi 30 mars 2024;Dimanche 31 mars 2024;Espace Culturel l'Amphi;Place du Dr Paul Guyader;29290;Saint-Renan;exposition.jpg;;;
