@@ -3,9 +3,9 @@
 ## TODO
 
 - [X] Faire passer la carte derrière la navbar
-- [] Rendre responsive l'iframe facebook
-- [X] Back-end vers BD pour les infos des expos
-- [ ] Design responsive
+- [X] Back-end vers CSV pour les infos des expos
+- [ ] Rendre responsive l'iframe Facebook
+- [ ] Rendre le site entièrement responsive
 
 ## Aide
 - Pour créer le fichier .geojson qui permet d'afficher les points sur la carte : 
