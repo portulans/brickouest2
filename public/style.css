@@ -23,7 +23,7 @@ article{
 .expo {
   display: grid; 
   grid-template-columns: 250px 1fr; 
-  grid-template-rows: 0.2fr 0.1fr 0.3fr 0.4fr;
+  grid-template-rows: 0.2fr 0.1fr 0.3fr 0.2fr 0.4fr 0.1fr;
   gap: 0px 0px; 
   grid-template-areas: 
     "affiche titreexpo"
@@ -31,7 +31,8 @@ article{
     "affiche horaires"
     "affiche tarif"
     "affiche localisation"
-    "affiche autresinfos"; 
+    "affiche autresinfos"
+    "affiche lien"; 
   margin-top: 2em;
   padding-bottom: 20px;
 }
@@ -52,6 +53,8 @@ article{
   grid-area: localisation;
   padding-top: 10px; 
 }
+.lien { grid-area: lien; 
+  padding-top: 10px; }
 
 .affiche-with-img{
   width: 220px;

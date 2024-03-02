@@ -33,49 +33,44 @@ xhttp.send();
         expoDiv.classList.add("expo-grey");
       }
 
-      if (eventData[9] != ""){
-        expoDiv.innerHTML = `
+      content =  `
         <h4 class="titreevent"><b>${eventData[1]}</b></h4>
-        <div class="affiche">
+        `
+      if (eventData[9] != ""){
+        content += `<div class="affiche">
           <div class="affiche-with-img">
             <img src="./affiches/2024/${eventData[9]}" class="affiche-img">
           </div>
-        </div>
-        <p class="typevent"><i>${eventData[2]}</i></p>
-        <div class="horaires">
-          <span class="jour1">${eventData[3]}</span><br/>
-          <span class="jour2">${eventData[4]}</span>
-        </div>
-        <div class=tarif>${eventData[10]}</div>
-        <div class=autresinfos>${eventData[11]}</div>
-        <div class="localisation">
-          <span class="lieu"><b>${eventData[5]}</b></span><br/>
-          <span class="adresse">${eventData[6]}</span><br/>
-          <span class="codepostal">${eventData[7]}</span> <span class="ville">${eventData[8]}</span>
-        </div>
-        </div>
-      `;
+        </div>`
       } else {
-        expoDiv.innerHTML = `
-        <h4 class="titreevent"><b>${eventData[1]}</b></h4>
-        <div class="affiche affiche-no-img"></div>
-        <p class="typevent"><i>${eventData[2]}</i></p>
-        <div class="horaires">
-          <span class="jour1">${eventData[3]}</span><br/>
-          <span class="jour2">${eventData[4]}</span>
-        </div>
-        <div class=tarif>${eventData[10]}</div>
-        <div class=autresinfos>${eventData[11]}</div>
-        <div class="localisation">
-          <span class="lieu"><b>${eventData[5]}</b></span><br/>
-          <span class="adresse">${eventData[6]}</span><br/>
-          <span class="codepostal">${eventData[7]}</span> <span class="ville">${eventData[8]}</span>
-        </div>
-        
-      `;
+        content += `<div class="affiche affiche-no-img"></div>`
       }
       
+      if (eventData[11] != ""){
+        content += `<p class="typevent"><i>${eventData[2]}</i> <i>organisée avec ${eventData[11]}</i></p>`
+      } else {
+        content += `<p class="typevent"><i>${eventData[2]}</i></p>`
+      }
+      content += `<div class="horaires">
+          <span class="jour1">${eventData[3]}</span><br/>
+          <span class="jour2">${eventData[4]}</span>
+        </div>
+        <div class=tarif>${eventData[10]}</div>
+        <div class=autresinfos>${eventData[12]}</div>
+        <div class="localisation">
+          <span class="lieu"><b>${eventData[5]}</b></span><br/>
+          <span class="adresse">${eventData[6]}</span><br/>
+          <span class="codepostal">${eventData[7]}</span> <span class="ville">${eventData[8]}</span>
+        </div>
+        </div>
+      `
+      if (eventData[13] != ""){
+        content += `<div class="lien"><a href="${eventData[13]}" target="_blank">En savoir plus</a></div>`
+      } else{
+        content += ''
+      }
+      }
+      expoDiv.innerHTML = content
       eventsContainer.appendChild(expoDiv);
-    }
     }
   }
