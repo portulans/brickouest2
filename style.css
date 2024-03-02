@@ -215,6 +215,23 @@ footer{
     margin-top: 6em;
   }
 
+  #calendrier{
+    width: 100%;
+    margin-left:0;
+    margin-right:0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  #expo{
+    width: 100%;
+    padding-left:5px;
+    padding-right: 5px;
+  }
+
+  #map{
+    width: 100%;
+  }
   .logo{    
     width:100%;}
 
@@ -224,6 +241,24 @@ footer{
 
   .affiche-img{
     width: 200px;
+  }
+
+  .expo {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 0.2fr 0.8fr 0.1fr 0.3fr 0.2fr 0.4fr 0.1fr;
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "titreexpo"
+      "affiche"
+      "typevent"
+      "horaires"
+      "tarif"
+      "localisation"
+      "autresinfos"
+      "lien"; 
+    margin-top: 2em;
+    padding-bottom: 20px;
   }
 
 }
