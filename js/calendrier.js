@@ -1,6 +1,6 @@
 // Charler le fichier evenements.csv où sont décrites les expos et animations
 document.addEventListener("DOMContentLoaded", function() {
-    loadCSV("evenements.csv");
+    loadCSV("data/evenements.csv");
   });
 
 // Fonction qui permet d'ouvrir un fichier csv
