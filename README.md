@@ -8,5 +8,5 @@
 - [ ] Rendre le site entièrement responsive
 
 ## Aide
-- Pour créer le fichier .geojson qui permet d'afficher les points sur la carte : 
-https://umap.openstreetmap.fr/fr/map/brickouest_1032319
+- Pour créer le fichier .geojson qui permet d'afficher les points sur la carte (demander les droits d'édition à Solenn pour le modifier): 
+https://umap.openstreetmap.fr/fr/map/lieux_1032319
