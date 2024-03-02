@@ -23,7 +23,7 @@ xhttp.send();
 
     for (var i = 1; i < lines.length; i++) {
       var eventData = lines[i].split(";");
-      if (eventData[0] === 'avenir') {
+      if (eventData[0] == 'avenir') {
       
       var expoDiv = document.createElement("div");
 
@@ -69,8 +69,9 @@ xhttp.send();
       } else{
         content += ''
       }
-      }
+      
       expoDiv.innerHTML = content
       eventsContainer.appendChild(expoDiv);
+    }
     }
   }
