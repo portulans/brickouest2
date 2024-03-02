@@ -15,7 +15,7 @@ function onEachFeature(feature, layer) {
     }
 }
 
-var url = "./data/brickouest.geojson"
+var url = "./data/lieux.geojson"
 //https://umap.openstreetmap.fr/fr/map/brickouest_967088
 
 var expos = L.geoJSON(null, {
