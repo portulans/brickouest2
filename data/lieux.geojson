@@ -4,34 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "extent": [
-          -0.9673237,
-          46.9210998,
-          -0.9671259,
-          46.9209693
-        ],
-        "country": "France",
-        "city": "Chanverrie",
-        "countrycode": "FR",
-        "postcode": "85500",
-        "county": "Vendée",
-        "street": "Rue du Calvaire",
-        "name": "Chanverrie (85) // Mairie",
-        "state": "Pays de la Loire",
-        "osm_id": "2024-001",
-        "type": "animation"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.967225,
-          46.921034
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "osm_id": "2024-002",
         "extent": [
           -0.9906449,
