@@ -70,10 +70,8 @@ var expos;
 fetch(csvUrl)
     .then(response => response.text())
     .then(csvString => {
-        //console.log(csvString)
         // Convert the CSV string to GeoJSON
         var geojson = csvToGeojson(csvString);
-        console.log(geojson)
         var expos = L.geoJSON(geojson, {
             onEachFeature:onEachFeature,
             filter:function(feature,layer){
@@ -83,7 +81,7 @@ fetch(csvUrl)
         
         expos.addTo(map);
     })
-    //.catch(error => console.error('Error fetching the CSV file:', error));
+    .catch(error => console.error('Error fetching the CSV file:', error));
 
 
 
