@@ -12,7 +12,7 @@
 Les évènements sont listés dans le fichier [evenements.csv](https://github.com/portulans/brickouest/blob/main/public/data/evenements.csv). Il peut être ouvert dans un tableur comme Excel, LibreOffice Calc ou Google Sheet (ou dans un éditeur de texte).
 
 Les colonnes du tableau sont :
-- *statut* : écrire **avenir** si l'évènement est à venir, **passe** s'il est passe
+- *statut* : écrire **avenir** si l'évènement est à venir, **passe** s'il est passé, **masque** si l'évènement est à venir mais qu'on ne souhaite pas l'afficher
 - *titreevent* : nom de l'évènement
 - *type* : **exposition** ou **animation**
 - *jour1* : date et horaires du premier jour de l'évènement
@@ -26,12 +26,15 @@ Les colonnes du tableau sont :
 - *organiseavec* : orgnisateur de l'expo (ex: MFR de Saint-Renan)
 - *autresinfos* : autres informations sur l'évènement
 - *lien* : lien vers le site ou le réseau social de l'expo
+- *lat* : Latitude du lieu de l'expo/animation
+- *long* : Longitude du lieu de l'expo
 
 ### Carte
-Pour mettre à jour les points affichés sur la carte:
-- éditer le fichier .geojson qui permet d'afficher les points sur la carte avec Umap: 
-https://umap.openstreetmap.fr/fr/map/lieux_1032319
-- télécharger le fichier et le mettre dans le dossier data (en vérifiant qu'il s'appelle bien *lieux.geojson*)
+Pour récupérer les coordonnées des points affichés : 
+1. Chercher l'addresse dans Google Maps
+2. Clic droit sur le lieu sur la carte : les coordonnées s'affichent
+3. Cliquer sur les coordonnées, celà les copie automatiquement dans le presse-papier
+4. Coller les coordonnées dans le CSV (séparer latitude et longitude)
 
 ## Crédit des images non BO utilisées
 Licence Unsplash
