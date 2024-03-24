@@ -31,8 +31,8 @@ Les colonnes du tableau sont :
 
 ### Carte
 Pour récupérer les coordonnées des points affichés : 
-1. Chercher l'addresse dans Google Maps
-2. Clic droit sur le lieu sur la carte : les coordonnées s'affichent
+1. Chercher l'adresse dans [Google Map](https://www.google.com/maps/)
+2. Clic gauche sur le lieu sur la carte : les coordonnées s'affichent
 3. Cliquer sur les coordonnées, celà les copie automatiquement dans le presse-papier
 4. Coller les coordonnées dans le CSV (séparer latitude et longitude)
 
