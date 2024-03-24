@@ -4,7 +4,7 @@
 
 - [X] Faire passer la carte derrière la navbar
 - [X] Back-end vers CSV pour les infos des expos
-- [ ] Rendre responsive l'iframe Facebook
+- [X] Iframe Facebook = pas possible sur Git-Hubb pages car pas de back-end (iframe commentée dans le HTML)
 - [ ] Rendre le site entièrement responsive
 
 ## Aide
