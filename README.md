@@ -8,8 +8,8 @@
 - [ ] Rendre le site entièrement responsive
 
 ## Aide
-### Evènements
-Les évènements sont listés dans le fichier [evenements.csv](https://github.com/portulans/brickouest/blob/main/public/data/evenements.csv). Il peut être ouvert dans un tableur comme Excel, LibreOffice Calc ou Google Sheet (ou dans un éditeur de texte).
+### Evénements
+Les événements sont listés dans le fichier [evenements.csv](https://github.com/portulans/brickouest/blob/main/public/data/evenements.csv). Il peut être ouvert dans un tableur comme Excel, LibreOffice Calc ou Google Sheet (ou dans un éditeur de texte).
 
 Les colonnes du tableau sont :
 - *statut* : écrire **avenir** si l'évènement est à venir, **passe** s'il est passé, **masque** si l'évènement est à venir mais qu'on ne souhaite pas l'afficher
