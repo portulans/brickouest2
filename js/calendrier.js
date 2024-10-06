@@ -55,7 +55,7 @@ xhttp.send();
           <span class="jour1">${eventData[3]}</span><br/>
           <span class="jour2">${eventData[4]}</span>
         </div>
-        <div class=tarif>${eventData[10]}</div>
+        <div class=tarif><b>Tarifs : </b>${eventData[10]}</div>
         <div class=autresinfos>${eventData[12]}</div>
         <div class="localisation">
           <span class="lieu"><b>${eventData[5]}</b></span><br/>
