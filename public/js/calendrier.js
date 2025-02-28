@@ -8,7 +8,7 @@ function loadCSV(file) {
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-    processData(this.responseText);
+    processData(this.responseText,'avenir');
     }
 };
 xhttp.open("GET", file, true);
@@ -16,14 +16,14 @@ xhttp.send();
 }
 
 //Fonction qui créé les divs du calendrier
-  function processData(csvData) {
+  function processData(csvData,filter) {
     var eventsContainer = document.getElementById("calendrier");
 
     var lines = csvData.split("\n");
 
     for (var i = 1; i < lines.length; i++) {
       var eventData = lines[i].split(";");
-      if (eventData[0] == 'avenir') {
+      if (eventData[0] == filter) {
       
       var expoDiv = document.createElement("div");
 
