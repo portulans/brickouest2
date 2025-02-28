@@ -39,7 +39,7 @@ xhttp.send();
       if (eventData[9] != ""){
         content += `<div class="affiche">
           <div class="affiche-with-img">
-            <img src="./affiches/2024/${eventData[9]}" class="affiche-img">
+            <img src="./affiches/2025/${eventData[9]}" class="affiche-img">
           </div>
         </div>`
       } else {
