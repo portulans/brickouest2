@@ -4,7 +4,7 @@
 
 - [X] Faire passer la carte derrière la navbar
 - [X] Back-end vers CSV pour les infos des expos
-- [X] Iframe Facebook = pas possible sur Git-Hubb pages car pas de back-end (iframe commentée dans le HTML)
+- [X] Iframe Facebook = pas possible sur Git-Hub pages car pas de back-end mais fonctionne sur le serveur BO
 - [ ] Rendre le site entièrement responsive
 
 ## Aide
@@ -28,6 +28,7 @@ Les colonnes du tableau sont :
 - *lien* : lien vers le site ou le réseau social de l'expo
 - *lat* : Latitude du lieu de l'expo/animation
 - *long* : Longitude du lieu de l'expo
+- *annee* : Année de l'expo
 
 ### Carte
 Pour récupérer les coordonnées des points affichés : 

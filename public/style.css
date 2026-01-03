@@ -66,6 +66,8 @@ article{
   height: auto;
   overflow: hidden;
   text-align: center;
+  padding-top: 1em;
+  padding-left: 1em;
 }
 
 .affiche-no-img{

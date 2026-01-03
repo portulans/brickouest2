@@ -36,14 +36,20 @@ function processData(csvData,filter) {
     content =  `
       <h4 class="titreevent"><b>${eventData[1]}</b></h4>
       `
-    if (eventData[9] != ""){
+    if (eventData[9] == "exposition.jpg" || eventData[9] == "animation.jpg" ){
       content += `<div class="affiche">
         <div class="affiche-with-img">
-          <img src="./affiches/2026/${eventData[9]}" class="affiche-img">
+          <img src="./affiches/${eventData[9]}" class="affiche-img">
+        </div>
+      </div>`
+    } else if (eventData[9] != ""){
+      content += `<div class="affiche">
+        <div class="affiche-with-img">
+          <img src="./affiches/${eventData[16]}/${eventData[9]}" class="affiche-img">
         </div>
       </div>`
     } else {
-      content += `<div class="affiche affiche-no-img"></div>`
+        content += `<div class="affiche affiche-no-img"></div>`
     }
     
     if (eventData[11] != ""){
@@ -54,9 +60,14 @@ function processData(csvData,filter) {
     content += `<div class="horaires">
         <span class="jour1">${eventData[3]}</span><br/>
         <span class="jour2">${eventData[4]}</span>
-      </div>
-      <div class=tarif><b>Tarifs : </b>${eventData[10]}</div>
-      <div class=autresinfos>${eventData[12]}</div>
+      </div>`
+  
+    if (eventData[10] != "") {
+      content += `<div class=tarif><b>Tarifs : </b>${eventData[10]}</div>`}
+    else {
+      content += `<div class=tarif></div>`}
+
+    content += `<div class=autresinfos>${eventData[12]}</div>
       <div class="localisation">
         <span class="lieu"><b>${eventData[5]}</b></span><br/>
         <span class="adresse">${eventData[6]}</span><br/>
