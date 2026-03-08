@@ -3,9 +3,9 @@ body{
 }
 
 article{
-    width:80%;
-    margin-left:auto;
-    margin-right:auto;
+    width:100%;
+    padding-left: 10em;
+    padding-right: 10em;
 }
 
 #calendrier{
@@ -19,6 +19,7 @@ article{
 .w3-bar{
   z-index: 100000;
 }
+
 
 .expo {
   display: grid; 
@@ -137,7 +138,6 @@ article{
     font-size: 30px;
 }
 
-
 .events{
     width:100%;
 }
@@ -212,41 +212,68 @@ footer{
 }
 
 @media screen and (max-width: 600px) {
-  .article {
+  body {
+    margin: 0;
+  }
+
+  article {
     width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
   }
 
   .divlogo{
-    margin-top: 6em;
+    margin: 0;
+    padding-top: 9em;
   }
 
   #calendrier{
     width: 100%;
-    margin-left:0;
-    margin-right:0;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin: 0;
+    padding: 0;
   }
 
   #expo{
     width: 100%;
-    padding-left:5px;
-    padding-right: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
   }
 
   #map{
     width: 100%;
+    margin: 0;
   }
+  
   .logo{    
-    width:100%;}
+    width:100%;
+  }
 
   .facebook{
     width: 100%;
+    margin: 0;
   }
 
-  .affiche-img{
-    width: 200px;
+  .titreevent{
+    text-align: center;
   }
+
+  .affiche {
+    text-align: center;
+  }
+
+  .affiche-img {
+  width: 200px; 
+  vertical-align: middle;
+}
+
+.affiche-with-img{
+  width: 200px;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
 
   .expo {
     display: grid; 
@@ -262,7 +289,8 @@ footer{
       "localisation"
       "autresinfos"
       "lien"; 
-    margin-top: 2em;
+    margin: 0;
+    padding-left: 0;
     padding-bottom: 20px;
   }
 
